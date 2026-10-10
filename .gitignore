@@ -1,0 +1,29 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local data and logs
+*.db
+*.sqlite3
+*.log
+instance/
+
+# test photos and videos
+test.jpg
+photos/
+*.mp4
+*.avi
+*.mov
+
+# editors and system files
+.vscode/
+.idea/
+.DS_Store
