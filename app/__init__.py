@@ -10,7 +10,7 @@ def create_app():
     app.config.from_object(Config)
 
     # lets the React app (Vite) talk to this server
-    CORS(app, origins=["http://localhost:5173"])
+    CORS(app, origins="*")
 
     db.init_app(app)
     jwt.init_app(app)
